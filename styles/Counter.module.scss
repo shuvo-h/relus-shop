@@ -1,0 +1,16 @@
+@import './colorsSample';
+
+.colored_SCSS_title{
+    color: $orange;
+    margin: 0;
+}
+
+.highlight_SCSS_Page{
+    background-color: $backgroundShadow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
