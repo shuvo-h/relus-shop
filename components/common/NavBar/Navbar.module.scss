@@ -1,0 +1,16 @@
+@import "../../../styles/commonStyleVar/colors";
+// @import "../../../styles/mixins/common_mixins";
+@import "../../../styles/commonStyleVar/marginsPadding";
+
+.nav_container{
+    background-color: $primary;
+    color: white;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    padding: $small $large ;
+
+    &__contact{
+        color: yellowgreen;
+    }
+}
+

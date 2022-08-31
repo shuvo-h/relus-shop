@@ -1,0 +1,23 @@
+
+@mixin responsive($width){
+    @media (max-width: $width) {
+        @content;
+    }
+}
+
+
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexVertical {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexHorizontal {
+    display: flex;
+}

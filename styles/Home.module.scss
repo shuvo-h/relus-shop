@@ -1,0 +1,19 @@
+@import "./commonStyleVar/colors";
+@import "./mixins/responsive_mixins";
+
+.HomeStyleTest{
+    background-color: $secondary;
+    color: blue;
+}
+.testFOntSize{
+    font-size: 10px;
+}
+
+// make responsive home
+@include dextopDevice(){
+    .HomeStyleTest{
+        background-color: lightpink;
+        color: green;
+    }
+}
+

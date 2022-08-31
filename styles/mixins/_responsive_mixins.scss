@@ -1,0 +1,7 @@
+// The @content means that any time we use our desktop mixin, it will include the nested content in that location.
+// make it responsive
+@mixin dextopDevice() {
+    @media (max-width: 600px) {
+        @content   
+    }
+}
